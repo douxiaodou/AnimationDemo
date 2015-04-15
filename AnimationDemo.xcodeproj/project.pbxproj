@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		66E1046C1AD642D800E5D6DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E1046B1AD642D800E5D6DC /* main.m */; };
 		66E1046F1AD642D800E5D6DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E1046E1AD642D800E5D6DC /* AppDelegate.m */; };
-		66E104721AD642D800E5D6DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E104711AD642D800E5D6DC /* FirstViewController.m */; };
-		66E104751AD642D800E5D6DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E104741AD642D800E5D6DC /* SecondViewController.m */; };
 		66E104781AD642D800E5D6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E104761AD642D800E5D6DC /* Main.storyboard */; };
 		66E1047A1AD642D900E5D6DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E104791AD642D900E5D6DC /* Images.xcassets */; };
 		66E1047D1AD642D900E5D6DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E1047B1AD642D900E5D6DC /* LaunchScreen.xib */; };
 		66E104891AD642D900E5D6DC /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E104881AD642D900E5D6DC /* AnimationDemoTests.m */; };
+		66E104981AD6480300E5D6DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E104971AD6480300E5D6DC /* HomeViewController.m */; };
+		66E1049B1AD6485300E5D6DC /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E1049A1AD6485300E5D6DC /* CalendarViewController.m */; };
+		66E1049E1AD6486300E5D6DC /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E1049D1AD6486300E5D6DC /* MineViewController.m */; };
+		66E104D61AD6506A00E5D6DC /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E104D51AD6506A00E5D6DC /* TabbarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,20 @@
 		66E1046B1AD642D800E5D6DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66E1046D1AD642D800E5D6DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66E1046E1AD642D800E5D6DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		66E104701AD642D800E5D6DC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		66E104711AD642D800E5D6DC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		66E104731AD642D800E5D6DC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		66E104741AD642D800E5D6DC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		66E104771AD642D800E5D6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66E104791AD642D900E5D6DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66E1047C1AD642D900E5D6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		66E104821AD642D900E5D6DC /* AnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E104871AD642D900E5D6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E104881AD642D900E5D6DC /* AnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoTests.m; sourceTree = "<group>"; };
+		66E104961AD6480300E5D6DC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		66E104971AD6480300E5D6DC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		66E104991AD6485300E5D6DC /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		66E1049A1AD6485300E5D6DC /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		66E1049C1AD6486300E5D6DC /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		66E1049D1AD6486300E5D6DC /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		66E104D41AD6506A00E5D6DC /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		66E104D51AD6506A00E5D6DC /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +92,10 @@
 			children = (
 				66E1046D1AD642D800E5D6DC /* AppDelegate.h */,
 				66E1046E1AD642D800E5D6DC /* AppDelegate.m */,
-				66E104701AD642D800E5D6DC /* FirstViewController.h */,
-				66E104711AD642D800E5D6DC /* FirstViewController.m */,
-				66E104731AD642D800E5D6DC /* SecondViewController.h */,
-				66E104741AD642D800E5D6DC /* SecondViewController.m */,
 				66E104761AD642D800E5D6DC /* Main.storyboard */,
 				66E104791AD642D900E5D6DC /* Images.xcassets */,
 				66E1047B1AD642D900E5D6DC /* LaunchScreen.xib */,
+				66E104921AD647E700E5D6DC /* Classes */,
 				66E104691AD642D800E5D6DC /* Supporting Files */,
 			);
 			path = AnimationDemo;
@@ -122,6 +125,45 @@
 				66E104871AD642D900E5D6DC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66E104921AD647E700E5D6DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66E104931AD647E700E5D6DC /* Controllers */,
+				66E104941AD647E700E5D6DC /* Model */,
+				66E104951AD647E700E5D6DC /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		66E104931AD647E700E5D6DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66E104961AD6480300E5D6DC /* HomeViewController.h */,
+				66E104971AD6480300E5D6DC /* HomeViewController.m */,
+				66E104991AD6485300E5D6DC /* CalendarViewController.h */,
+				66E1049A1AD6485300E5D6DC /* CalendarViewController.m */,
+				66E1049C1AD6486300E5D6DC /* MineViewController.h */,
+				66E1049D1AD6486300E5D6DC /* MineViewController.m */,
+				66E104D41AD6506A00E5D6DC /* TabbarViewController.h */,
+				66E104D51AD6506A00E5D6DC /* TabbarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		66E104941AD647E700E5D6DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66E104951AD647E700E5D6DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E104751AD642D800E5D6DC /* SecondViewController.m in Sources */,
+				66E1049B1AD6485300E5D6DC /* CalendarViewController.m in Sources */,
 				66E1046F1AD642D800E5D6DC /* AppDelegate.m in Sources */,
-				66E104721AD642D800E5D6DC /* FirstViewController.m in Sources */,
+				66E104D61AD6506A00E5D6DC /* TabbarViewController.m in Sources */,
+				66E1049E1AD6486300E5D6DC /* MineViewController.m in Sources */,
 				66E1046C1AD642D800E5D6DC /* main.m in Sources */,
+				66E104981AD6480300E5D6DC /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

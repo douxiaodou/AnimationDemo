@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  TabbarViewController.h
 //  AnimationDemo
 //
 //  Created by daoneng on 15/4/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface TabbarViewController : UITabBarController
 
 @end
-

@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MineViewController.h
 //  AnimationDemo
 //
 //  Created by daoneng on 15/4/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface MineViewController : UIViewController
 
 @end
-
